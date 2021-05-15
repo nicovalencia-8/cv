@@ -1,0 +1,80 @@
+<!DOCTYPE html><!--Declaración el tipo del documento y se le dice al navegador la versión del HTML-->
+<html lang="en"><!--Lo que está entre estás etiquetas será el código HTML-->
+<head><!--El encabezado es la parte que contiene la información de la página web y le dice al navegador como se debe manejar la página-->
+    <meta charset="UTF-8"><!--Meta elemento, son diferentes meta elementos pero este en particular es configuración de caracteres, los metaelementos dan datos adicionales o asociados al documento HTML-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Esta meta etiqueta le dice al navegador web como debe mostrarnos la información en pantalla-->
+    <!--Con los meta elementos podemos darle información adicional al navegador como una breve descripción de la página y autor de esta-->
+    <meta content="Mi sitio web personal para la clase de desarrollo web"><!--Se le brinda al navegador información básica de la página-->
+    <title>Mi sitio web personal</title><!--Titulo del documento-->
+</head>
+<body><!--El cuerpo es la parte donde se encuentra el contenido de la página-->
+    
+    <!--etiqueta imagen: se divide en dos partes, el elemento HTML (image) y los atributos html (src) que es la ruta o el nombre de la imagen, 
+        con las etiquetas width y height determinamos el alto y ancho de la imagen respectivamente para que se adapte a nuestro sitio, si no especificamos las unidades
+        el navegador interpreta estás como pixeles-->
+
+    <table cellspacing="20"><!--Con el atributo cellspacing podemos definir el espacio que hay entre las celdas-->
+        <tr>
+            <td><image src="foto.jpg" width="220" height="300"></image></td>
+            <td>
+                <h1>Nicolás Valencia</h1>
+                <p><!--Etiqueta de párrafo-->
+                    Estudiante de quinto semestre de ingeniería de sistemas<br>
+                    Tecnólogo en Análisis y Desarrollo de Sistemas de Información<br>
+                    Me gusta la música
+                </p>
+            </td>
+        </tr>
+    </table>  
+
+    <hr>
+    
+    <a href="Pasatiempos.html">Mis pasatiempos</a><!--Al abrir los pasatiempos encontraremos una lista no ordenada-->
+   
+    <a href="Contacto.html">Mi contacto</a><!--Al abrir el contacto encontraremos una lista ordenada o numerada-->
+
+    <hr>
+    <h3>Experiencia laboral</h3>
+    <table cellspacing="20"> <!--Tabla-->
+        <thead><!--Cabecero de la tabla-->
+            <tr><!--Fila-->
+                <th>Fecha</th><!--Titulos para cada columna-->
+                <th>Trabajo</th>
+            </tr>
+        </thead>
+        <tbody><!--Cuerpo de la tabla-->
+            <tr><!--Filas-->
+                <td>2016 - Actualidad</td><!--Columnas o celdas-->
+                <td>Análista de soporte ETB</td>
+            </tr>
+            <tr>
+                <td>2014 - 2016</td>
+                <td>Análista de software</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Habilidades</h3>
+
+    <table cellspacing="20">
+        <tr>
+            <td>Desarrollo Java</td>
+            <td>Intermedio</td>
+        </tr>
+        <tr>
+            <td>Desarrollo web</td>
+            <td>Intermedio</td>
+        </tr>
+        <tr>
+            <td>Desarrollo .NET</td>
+            <td>Básico</td>
+        </tr>
+        <tr>
+            <td>Desarrollo SQL</td>
+            <td>Intermedio</td>
+        </tr>
+    </table>
+    <hr>
+</body>
+</html>

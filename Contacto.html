@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h3>Mi contacto</h3>
+    
+    <ol><!--Lista ordenada o enumerada-->   
+        <li>Dirección: Calle 53 c sur # 5c 75 este</li><!--Hace referencia a un elemento de la lista-->
+        <li>Correo eléctrónico: nico00540@gmail.com</li>
+        <li>Telefono: 3213772519</li>
+    </ol>
+
+    <h3>Redes Sociales</h3>
+    <ul><!--Lista no ordenada-->        
+        <li><a href="https://www.instagram.com/nicovalencia_8/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/nicolas.valencia8" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/nicovalencia_8" target="_blank">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/nicol%C3%A1s-valencia-090604126/" target="_blank">LinkedIn</a></li>
+        <!--Con la etiqueta "a" podemos poner hipervinculos dentro de nuestra página con el atributo href y con el atributo target especificamos dónde queremos abrir la página
+        en este caso le estamos diciendo que los hipervinculos los abrirá en una nueva pestaña-->
+    </ul>
+    <hr>
+    <form action="mailto:nico00540@gmail.com" method="POST" enctype="text/plain"><!--Formulario, el atributo action indica a dónde se va a enviar el formulario, 
+        con el mailto indicamos que se envie un correo con su cliente de correo predeterminado, el atributo method especifica el tipo de envio y el actributo 
+        enctype espicifica el tipo de codificación que en este caso sería un texto sin formato-->
+        <label>Tu Nombre</label><!--Este elemento determina una etiqueta para reconocer otro elemento-->
+        <input type="text" name="Nombre" value=""><br>
+        <label>Tu Correo</label><!--Este elemento determina una etiqueta para reconocer otro elemento-->
+        <input type="text" name="Correo" value=""><br>
+        <label>Tu Mensaje</label><!--Este elemento determina una etiqueta para reconocer otro elemento-->
+        <textarea name="Mensaje" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+    <br>
+    <a href="index.html"><<-Volver</a>
+
+</body>
+</html>
